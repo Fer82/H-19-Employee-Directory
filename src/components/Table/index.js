@@ -20,6 +20,8 @@ export default class Table extends Component {
   ]
 
   handleSort(heading) {
+    let headding = event.target.dataset['heading'].toLowerCase();
+
     if (this.state.order === "descend") {
       this.setState({
         order: "ascend"
@@ -104,6 +106,7 @@ export default class Table extends Component {
                         className="col"
                         key={name}
                         style={{ width }}
+                        data-heading={name}
                         onClick={() => {
                           this.handleSort(name.toLowerCase());
                         }}
