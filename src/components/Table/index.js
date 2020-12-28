@@ -108,8 +108,8 @@ export default class Table extends Component {
                         style={{ width }}
                         data-heading={name}
                         onClick={() => {
-                          this.handleSort(name.toLowerCase());
-                        }}
+                          this.handleSort.bind(this)}
+                        }
                       >
                         {name}
                         <span className="pointer"></span>
