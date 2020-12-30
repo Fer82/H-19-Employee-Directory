@@ -3,14 +3,14 @@ import TBody from "./TBody";
 import Nav from "../Nav/";
 import API from "../../utils/API";
 import "./style.css";
-​
+
 export default class Table extends Component {
   state = {
     users: [{}],
     order: "descend",
     filteredUsers: [{}]
   }
-​
+
   headings = [
     { name: "Image", width: "10%" },
     { name: "Name", width: "10%" },
@@ -18,10 +18,10 @@ export default class Table extends Component {
     { name: "Email", width: "20%" },
     { name: "DOB", width: "10%" }
   ]
-​
+
   handleSort(event) {
     let heading = event.target.dataset['heading'].toLowerCase();
-​
+
     if (this.state.order === "descend") {
       this.setState({
         order: "ascend"
@@ -31,7 +31,7 @@ export default class Table extends Component {
         order: "descend"
       })
     }
-​
+
     const compareFnc = (a, b) => {
       if (this.state.order === "ascend") {
         // account for missing values
@@ -60,12 +60,12 @@ export default class Table extends Component {
           return b[heading] - a[heading];
         }
       }
-​
+
     }
     const sortedUsers = this.state.filteredUsers.sort(compareFnc);
     this.setState({ filteredUsers: sortedUsers });
   }
-​
+
   handleSearchChange(event) {
     console.log(event.target.value);
     const filter = event.target.value;
@@ -78,7 +78,7 @@ export default class Table extends Component {
     });
     this.setState({ filteredUsers: filteredList });
   }
-​
+
   componentDidMount() {
     API.getUsers().then(results => {
       this.setState({
@@ -87,7 +87,7 @@ export default class Table extends Component {
       });
     });
   }
-​
+
   render() {
     return (
       <>
@@ -116,7 +116,7 @@ export default class Table extends Component {
                   })}
                 </tr>
               </thead>
-​
+              
               <TBody users={this.state.filteredUsers} />
             </table>
           </div>          
