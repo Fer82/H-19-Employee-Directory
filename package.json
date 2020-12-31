@@ -2,7 +2,7 @@
   "name": "ground-hw-19",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fer82.github.io/H-19-Employee-Directory/",
+  "homepage": "https://fer82.github.io/ground-hw-19/",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.5.0",

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/H-19-Employee-Directory/static/css/main.4d7c3938.chunk.css",
-    "main.js": "/H-19-Employee-Directory/static/js/main.3c99677d.chunk.js",
-    "main.js.map": "/H-19-Employee-Directory/static/js/main.3c99677d.chunk.js.map",
-    "runtime-main.js": "/H-19-Employee-Directory/static/js/runtime-main.94babed8.js",
-    "runtime-main.js.map": "/H-19-Employee-Directory/static/js/runtime-main.94babed8.js.map",
-    "static/css/2.20aa2d7b.chunk.css": "/H-19-Employee-Directory/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.7278e451.chunk.js": "/H-19-Employee-Directory/static/js/2.7278e451.chunk.js",
-    "static/js/2.7278e451.chunk.js.map": "/H-19-Employee-Directory/static/js/2.7278e451.chunk.js.map",
-    "index.html": "/H-19-Employee-Directory/index.html",
-    "static/css/2.20aa2d7b.chunk.css.map": "/H-19-Employee-Directory/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.4d7c3938.chunk.css.map": "/H-19-Employee-Directory/static/css/main.4d7c3938.chunk.css.map",
-    "static/js/2.7278e451.chunk.js.LICENSE.txt": "/H-19-Employee-Directory/static/js/2.7278e451.chunk.js.LICENSE.txt"
+    "main.css": "/ground-hw-19/static/css/main.4d7c3938.chunk.css",
+    "main.js": "/ground-hw-19/static/js/main.83b74739.chunk.js",
+    "main.js.map": "/ground-hw-19/static/js/main.83b74739.chunk.js.map",
+    "runtime-main.js": "/ground-hw-19/static/js/runtime-main.27366f4f.js",
+    "runtime-main.js.map": "/ground-hw-19/static/js/runtime-main.27366f4f.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/ground-hw-19/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.7278e451.chunk.js": "/ground-hw-19/static/js/2.7278e451.chunk.js",
+    "static/js/2.7278e451.chunk.js.map": "/ground-hw-19/static/js/2.7278e451.chunk.js.map",
+    "index.html": "/ground-hw-19/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/ground-hw-19/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.4d7c3938.chunk.css.map": "/ground-hw-19/static/css/main.4d7c3938.chunk.css.map",
+    "static/js/2.7278e451.chunk.js.LICENSE.txt": "/ground-hw-19/static/js/2.7278e451.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.94babed8.js",
+    "static/js/runtime-main.27366f4f.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.7278e451.chunk.js",
     "static/css/main.4d7c3938.chunk.css",
-    "static/js/main.3c99677d.chunk.js"
+    "static/js/main.83b74739.chunk.js"
   ]
 }
